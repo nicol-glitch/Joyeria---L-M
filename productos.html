@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Productos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<img src="https://i.imgur.com/4SWWddP.jpeg">
+<h3>L&M JOYERIA</h3>
+</header>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="productos.html">Productos</a>
+<a href="videos.html">Videos</a>
+<a href="qr.html">QR</a>
+<a href="balines.html">Balines</a>
+</nav>
+
+<section class="productos">
+
+<div class="card">
+<img src="https://i.imgur.com/uUb5JbU.jpeg">
+<p>Manilla Negra</p>
+<button onclick="agregar('Manilla Negra',65000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/obD2nqI.jpeg">
+<p>Manilla Gris</p>
+<button onclick="agregar('Manilla Gris',110000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/qekdaie.jpeg">
+<p>Tres Carriles Negra</p>
+<button onclick="agregar('Tres Carriles Negra',130000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/ChwuLau.jpeg">
+<p>Hilo Rojo</p>
+<button onclick="agregar('Hilo Rojo',70000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/JhPv1va.jpeg">
+<p>Tres Carriles Roja</p>
+<button onclick="agregar('Tres Carriles Roja',200000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/Nb9K2Uj.jpeg">
+<p>7 Nudos Roja</p>
+<button onclick="agregar('7 Nudos Roja',200000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/McIzi5W.jpeg">
+<p>Un carril</p>
+<button onclick="agregar('Un carril',200000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/cOdgMDu.jpeg">
+<p>Full Balines</p>
+<button onclick="agregar('Full Balines',200000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/nn54JzI.jpeg">
+<p>colores</p>
+<button onclick="agregar('colores',200000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/GQLdOYt.jpeg">
+<p>Pulsera RX</p>
+<button onclick="agregar('Pulsera Rx',200000)">Agregar</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/8nk4M9E.jpeg">
+<p>San Benito</p>
+<button onclick="agregar('San Benito',200000)">Agregar</button>
+</div>
+
+</section>
+
+<div class="carrito" id="carrito">
+<h3>Carrito</h3>
+<div id="lista"></div>
+<p>Total: $<span id="total">0</span></p>
+<button onclick="comprar()">Comprar</button>
+</div>
+
+<footer>
+<div>WhatsApp: 3212642907</div>
+<div class="redes">
+<a href="https://www.facebook.com/share/1HGTMJbXhS/">Facebook</a>
+<a href="https://www.instagram.com/lmmanillas">Instagram</a>
+<a href="https://www.tiktok.com/@lm.manillas">TikTok</a>
+</div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/573212642907">
+<img src="https://i.imgur.com/VL8NKFY.jpeg">
+</a>
+
+<div class="btn-carrito" onclick="toggleCarrito()">
+<img src="https://i.imgur.com/unOzpq0.png">
+<span id="contador">0</span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
